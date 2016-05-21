@@ -269,3 +269,4 @@ package ‘dplyr’ was built under R version 3.2.5
 > dim(tidyData)
 [1] 180  88
 > 
+>
