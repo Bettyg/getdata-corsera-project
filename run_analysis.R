@@ -25,25 +25,25 @@ Type 'q()' to quit R.
 data.table 1.9.6  For help type ?data.table or https://github.com/Rdatatable/data.table/wiki
 The fastest way to learn (by data.table authors): https://www.datacamp.com/courses/data-analysis-the-data-table-way
 Warning message:
-package ‘data.table’ was built under R version 3.2.5 
+package â€˜data.tableâ€™ was built under R version 3.2.5 
 > library(dplyr)
 
-Attaching package: ‘dplyr’
+Attaching package: â€˜dplyrâ€™
 
-The following objects are masked from ‘package:data.table’:
+The following objects are masked from â€˜package:data.tableâ€™:
 
     between, last
 
-The following objects are masked from ‘package:stats’:
+The following objects are masked from â€˜package:statsâ€™:
 
     filter, lag
 
-The following objects are masked from ‘package:base’:
+The following objects are masked from â€˜package:baseâ€™:
 
     intersect, setdiff, setequal, union
 
 Warning message:
-package ‘dplyr’ was built under R version 3.2.5 
+package â€˜dplyrâ€™ was built under R version 3.2.5 
 > featureNames <- read.table("UCI HAR Dataset/features.txt")
 > activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt", header = FALSE)
 > subjectTrain <- read.table("UCI HAR Dataset/train/subject_train.txt", header = FALSE)
